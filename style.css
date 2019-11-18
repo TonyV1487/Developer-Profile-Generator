@@ -1,0 +1,31 @@
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.profileImg {
+  max-width: 200px;
+  max-height: 200px;
+}
+.flexSpaceEvenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+.leadMargin10 {
+  margin: 10px 0px 0px 0px;
+}
+.textCenter {
+  text-align: center;
+}

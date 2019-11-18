@@ -112,7 +112,7 @@ inquirer
                 <div class="col-8 flexSpaceEvenly">
                   <i class="fa fa-location-arrow">${location}</i>
                   <a href="${profileUrl}"><i class="fa fa-github-alt">GitHub</i></a>
-                  <a href="http://${blogUrl}"><i class="fa fa-rss">Blog</i></a>
+                  <a href="${blogUrl}"><i class="fa fa-rss">Blog</i></a>
                 </div>
                 <div class="col-2"></div>
               </div>
@@ -128,6 +128,7 @@ inquirer
               <div class="row leadMargin10">
                 <div class="col-2"></div>
                 <div class="col-4 d-flex flex-column textCenter"><div>GitHub Stars</div><div>${starCount}</div></div>
+          const followingCount = followingId.length;
                 <div class="col-4 d-flex flex-column textCenter"><div>Following</div><div>${followingCount}</div></div>
                 <div class="col-2"></div>
               </div>
@@ -156,7 +157,6 @@ inquirer
           console.log("DONE");
           process.exit(0);
         };
-
         return run();
       });
   });
